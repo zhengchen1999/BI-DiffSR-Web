@@ -187,17 +187,17 @@
 <!-- End paper abstract -->
 
 <!-- Method Section-->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Method</h2>
-      <div class="has-text-centered">
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-five-sixths">
+        <h2 class="title is-3 has-text-left">Method</h2>
         <figure>
           <img src="static/images/BI-DiffSR.png" alt="Overview of BI-DiffSR">
           <figcaption class="title is-5">Overview of BI-DiffSR</figcaption>
         </figure>
-        <div class="content has-text-left" style="margin-top: 1rem;">
-          <p>We propose <strong>BI-DiffSR</strong>, a novel binarized model for image super-resolution. Our method employs a <strong>U-Net</strong> architecture optimized for binarization, incorporating consistent-pixel-downsample (<strong>CP-Down</strong>) and upsample (<strong>CP-Up</strong>) modules, along with a channel-shuffle-fusion (<strong>CS-Fusion</strong>) module to enhance information flow. Additionally, we introduce timestep-aware redistribution (<strong>TaR</strong>) and activation function (<strong>TaA</strong>) to adjust the activation distributions across timesteps, enchancing the binarized modules.</p>
+        <div class="content has-text-justified" style="margin-top: 1rem;">
+          <p>We propose <strong>BI-DiffSR</strong>, a novel binarized model for image super-resolution. Our method employs a <strong>U-Net</strong> architecture optimized for binarization, incorporating consistent-pixel-downsample (<strong>CP-Down</strong>) and upsample (<strong>CP-Up</strong>) modules, along with a channel-shuffle-fusion (<strong>CS-Fusion</strong>) module to enhance information flow. Additionally, we introduce timestep-aware redistribution (<strong>TaR</strong>) and activation function (<strong>TaA</strong>) to adjust the activation distributions across timesteps, enhancing the binarized modules.</p>
         </div>
       </div>
     </div>
@@ -205,111 +205,116 @@
 </section>
 <!-- End Method Section-->
 
-<!-- Results Section-->
-<section class="hero is-small is-light">
+<!-- Results Section -->
+<section class="section hero is-small is-light">
   <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Results</h2>
-  <div class="container">
-    <details>
-      <summary class="title is-5">Quantitative Comparisons (click to expand)</summary>
-      <div class="content">
-        <ul><li class="title is-6">Results in Table 2 (main paper)</li></ul>
-        <p class="has-text-centered">
-          <img  src="static/images/T1.png" alt="Quantitative Comparison Table">
-        </p>
-      </div>
-    </details>
-    <details>
-      <summary class="title is-5">Visual Comparisons (click to expand)</summary>
-      <div class="content">
-        <ul><li class="title is-6">Results in Figure 8 (main paper)</li></ul>
-        <p class="has-text-centered">
-          <img  src="static/images/F1.png" alt="Visual Comparison Figure 8">
-        </p>
-        <ul><li class="title is-6">Results in Figure 13 (supplemental material)</li></ul>
-        <p class="has-text-centered">
-          <img  src="static/images/F2-1.png" alt="Visual Comparison Figure 13-1">
-          <img  src="static/images/F2-2.png" alt="Visual Comparison Figure 13-2">
-        </p>
-        <ul><li class="title is-6">Results in Figure 14 (supplemental material)</li></ul>
-        <p class="has-text-centered">
-          <img  src="static/images/F3-1.png" alt="Visual Comparison Figure 14-1">
-          <img  src="static/images/F3-2.png" alt="Visual Comparison Figure 14-2">
-        </p>
-      </div>
-    </details>
-  </div>
-</section>
-<!-- End Results Section -->
-
-
-
-<!-- Video Section -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Video</h2>
-      <div id="intro-video" class="video-container">
-        <div class="item item-video-demo">
-          <video poster="" id="demoVideo" controls muted loop width="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/Demo.mp4" type="video/mp4">
-          </video>
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-left">
+        <div class="column is-five-sixths">
+          <h2 class="title is-3">Results</h2>
+          <details>
+            <summary class="title is-5">Quantitative Comparisons (click to expand)</summary>
+            <div class="content">
+              <ul><li class="title is-6">Results in Table 2 (main paper)</li></ul>
+              <p class="has-text-centered">
+                <img src="static/images/T1.png" alt="Quantitative Comparison Table">
+              </p>
+            </div>
+          </details>
+          <details>
+            <summary class="title is-5">Visual Comparisons (click to expand)</summary>
+            <div class="content">
+              <ul><li class="title is-6">Results in Figure 8 (main paper)</li></ul>
+              <p class="has-text-centered">
+                <img src="static/images/F1.png" alt="Visual Comparison Figure 8">
+              </p>
+              <ul><li class="title is-6">Results in Figure 13 (supplemental material)</li></ul>
+              <p class="has-text-centered">
+                <img src="static/images/F2-1.png" alt="Visual Comparison Figure 13-1">
+                <img src="static/images/F2-2.png" alt="Visual Comparison Figure 13-2">
+              </p>
+              <ul><li class="title is-6">Results in Figure 14 (supplemental material)</li></ul>
+              <p class="has-text-centered">
+                <img src="static/images/F3-1.png" alt="Visual Comparison Figure 14-1">
+                <img src="static/images/F3-2.png" alt="Visual Comparison Figure 14-2">
+              </p>
+            </div>
+          </details>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End video section -->
+<!-- End Results Section -->
 
-
-
-<!-- Slide poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Slide</h2>
-
-      <iframe  src="static/pdfs/Slide.pdf" width="100%" height="550">
-          </iframe>
-        
+<!-- Video Section -->
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-left">
+      <div class="column is-five-sixths">
+        <h2 class="title is-3">Video</h2>
+        <div id="intro-video" class="video-container">
+          <div class="item item-video-demo">
+            <video poster="" id="demoVideo" controls muted loop width="100%">
+              <!-- Your video file here -->
+              <source src="static/videos/Demo.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
       </div>
     </div>
-  </section>
-<!--End Slide poster -->
+  </div>
+</section>
+<!-- End Video Section -->
 
-<!-- Paper poster -->
-<section class="hero is-small">
+<!-- Slide Section -->
+<section class="section hero is-small is-light">
   <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/Poster.pdf" width="100%" height="550">
-          </iframe>
-        
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-left">
+        <div class="column is-five-sixths">
+          <h2 class="title">Slide</h2>
+          <iframe src="static/pdfs/Slide.pdf" width="100%" height="550"></iframe>
+        </div>
       </div>
     </div>
-  </section>
-<!--End paper poster -->
+  </div>
+</section>
+<!-- End Slide Section -->
 
-
-<!--BibTex citation -->
-<section class="hero is-small is-light">
+<!-- Poster Section -->
+<section class="section hero is-small">
   <div class="hero-body">
-    <div class="container">
-      <h2 class="title">BibTeX</h2>
-      <pre style="background-color: #ffffff">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-left">
+        <div class="column is-five-sixths">
+          <h2 class="title">Poster</h2>
+          <iframe src="static/pdfs/Poster.pdf" width="100%" height="550"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Poster Section -->
+
+<!-- BibTeX citation -->
+<section class="section hero is-small is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-left">
+      <div class="column is-five-sixths">
+        <h2 class="title">BibTeX</h2>
+        <pre style="background-color: #ffffff; overflow-x: auto; white-space: pre-wrap;">
 <code>@inproceedings{chen2024binarized,
     title={Binarized Diffusion Model for Image Super-Resolution},
     author={Chen, Zheng and Qin, Haotong and Guo, Yong and Su, Xiongfei and Yuan, Xin and Kong, Linghe and Zhang, Yulun},
     booktitle={NeurIPS},
     year={2024}
 }</code></pre>
+      </div>
     </div>
   </div>
 </section>
-<!--End BibTex citation -->
+<!-- End BibTeX citation -->
 
 
   <footer class="footer">
